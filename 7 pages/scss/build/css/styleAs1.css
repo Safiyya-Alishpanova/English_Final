@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box; }
+  *::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; }
+  *::-webkit-scrollbar-track {
+    background: transparent; }
+  *::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 2rem; }
+
+html {
+  font-size: 65.25%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth; }
+  html::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; }
+  html::-webkit-scrollbar-track {
+    background: transparent; }
+  html::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 2rem; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+  header .leftBox {
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-right-style: solid;
+    border-right-width: 1px;
+    font-family: "Lato", sans-serif;
+    width: 250px;
+    padding-top: 62px;
+    display: block;
+    height: 100%;
+    max-width: 80%;
+    overflow-y: auto;
+    position: fixed;
+    z-index: 70; }
+    header .leftBox .posLeft {
+      transition: left 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      left: 0; }
+    header .leftBox .iconsSdu {
+      /* margin-right: 25px; */
+      margin-left: 36px;
+      margin-bottom: 21.5px; }
+    header .leftBox nav li, header .leftBox nav a {
+      color: #999999;
+      margin-top: 28px;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600; }
+    header .leftBox nav li a:hover {
+      color: black; }
+
+.content {
+  margin-left: 250px;
+  flex: 0 0 auto;
+  outline: none; }
+  .content .heightImg {
+    height: 480px; }
+  .content .mainPage {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    height: 100%; }
+    .content .mainPage .contentImg {
+      background-image: url("../../../images/as1Head.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+      height: 350px;
+      position: relative; }
+      .content .mainPage .contentImg .posBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .content .mainPage .contentImg .posBottom h1 {
+          font-family: "Arial", sasn-serif;
+          color: #fff;
+          font-size: 45pt;
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: -0.5px;
+          line-height: 1.26;
+          margin: 0;
+          padding: 50px 0 20px 0; }
+        .content .mainPage .contentImg .posBottom .line {
+          width: 80px;
+          height: 10px;
+          background-color: #022469;
+          z-index: 10;
+          /* margin-left: 100px ; */ }
+  .content .texts {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto; }
+    .content .texts .headText h3 {
+      color: #022469;
+      font-weight: 600;
+      font-size: 25px;
+      font-family: "Arial", sans-serif;
+      margin-bottom: 0;
+      margin-top: 30px; }
+    .content .texts .headText p {
+      color: #212121;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12pt;
+      font-weight: 400;
+      line-height: 1.56; }
+    .content .texts .line {
+      width: 980px;
+      margin: 0 auto;
+      height: 1px;
+      background-color: #999999; }
+    .content .texts .cretire h3 {
+      color: #022469;
+      font-weight: 600;
+      font-size: 25px;
+      font-family: "Arial", sans-serif;
+      margin-bottom: 0;
+      margin-top: 30px; }
+    .content .texts .cretire ul li {
+      list-style-type: square;
+      font-size: 12pt;
+      font-family: 'Open Sans', sans-serif;
+      color: #212121;
+      line-height: 25px; }
+    .content .texts .asimg h3 {
+      color: #022469;
+      font-weight: 600;
+      font-size: 25px;
+      font-family: "Arial", sans-serif;
+      margin-bottom: 0;
+      margin-top: 30px; }

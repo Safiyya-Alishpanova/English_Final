@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box; }
+  *::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; }
+  *::-webkit-scrollbar-track {
+    background: transparent; }
+  *::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 2rem; }
+
+html {
+  font-size: 65.25%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth; }
+  html::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; }
+  html::-webkit-scrollbar-track {
+    background: transparent; }
+  html::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 2rem; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+  header .leftBox {
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-right-style: solid;
+    border-right-width: 1px;
+    font-family: "Lato", sans-serif;
+    width: 250px;
+    padding-top: 62px;
+    display: block;
+    height: 100%;
+    max-width: 80%;
+    overflow-y: auto;
+    position: fixed;
+    z-index: 70; }
+    header .leftBox .posLeft {
+      transition: left 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      left: 0; }
+    header .leftBox .iconsSdu {
+      /* margin-right: 25px; */
+      margin-left: 36px;
+      margin-bottom: 21.5px; }
+    header .leftBox nav li, header .leftBox nav a {
+      color: #999999;
+      margin-top: 28px;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600; }
+    header .leftBox nav li a:hover {
+      color: black; }
+
+.content {
+  margin-left: 250px;
+  flex: 00 auto;
+  outline: none; }
+  .content .heightImg {
+    height: 480px; }
+  .content .mainPage {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    height: 100%; }
+    .content .mainPage .contentImg {
+      background-image: url("../../../images/photoWomen.jpg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: top center;
+      height: 480px;
+      position: relative; }
+      .content .mainPage .contentImg .posBottom {
+        position: relative;
+        bottom: -50%;
+        right: -5%; }
+        .content .mainPage .contentImg .posBottom h1 {
+          float: right;
+          margin-right: 25rem;
+          top: -107px;
+          /* margin: 0; */
+          font-size: 40px;
+          font-weight: 600;
+          font-family: "Lato", sasn-serif;
+          line-height: 1.26;
+          padding-bottom: 18px;
+          color: #fff; }
+          .content .mainPage .contentImg .posBottom h1:hover {
+            color: #000; }
+        .content .mainPage .contentImg .posBottom .line {
+          float: right;
+          /* margin-right: 25rem; */
+          position: relative;
+          top: 90px;
+          left: 80px;
+          width: 80px;
+          height: 10px;
+          background-color: #022469;
+          z-index: 10;
+          margin-left: 100px; }
+  .content .aboutContent {
+    /* margin-top: 30px; */ }
+    .content .aboutContent .box {
+      width: 100vw;
+      height: 250px;
+      background-color: #022469; }
+      .content .aboutContent .box .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .content .aboutContent .box .text .textAbout {
+          margin-left: 100px;
+          margin-right: 350px;
+          padding: 80px 0;
+          color: #fff;
+          font-family: "Roboto", sasn-serif;
+          font-weight: 600;
+          font-size: 18px;
+          padding-bottom: 30px;
+          line-height: 30px; }
+  .content .AssignmentsCircle h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Arial", sasn-serif;
+    font-weight: 600;
+    color: #022469; }
+  .content .AssignmentsCircle .posCircle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    /* border-bottom: 1px solid rgba(153, 153, 153); */ }
+    .content .AssignmentsCircle .posCircle .cirlceAssignments {
+      display: flex;
+      flex-direction: row;
+      /* flex-direction: column;
+					align-items: center; */
+      /* align-items: space-between; */
+      /* align-items: ems: center; */ }
+      .content .AssignmentsCircle .posCircle .cirlceAssignments .circle1 p {
+        text-align: center;
+        font-size: 18px;
+        font-family: "Roboto", sasn-serif;
+        font-weight: 600;
+        color: #022469; }
+      .content .AssignmentsCircle .posCircle .cirlceAssignments .circle1 .btnMore {
+        margin: 30px 0; }
+        .content .AssignmentsCircle .posCircle .cirlceAssignments .circle1 .btnMore .moreBtn {
+          height: 36px;
+          width: 310px;
+          background: #022469;
+          border: none;
+          border-radius: 3px; }
+          .content .AssignmentsCircle .posCircle .cirlceAssignments .circle1 .btnMore .moreBtn a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #fff; }
+  .content .AssignmentsCircle .line {
+    width: 980px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #999999; }

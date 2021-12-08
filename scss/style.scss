@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*
+{
+	box-sizing: border-box;
+	&::-webkit-scrollbar 
+	{
+		width: 3px;
+		height: 3px;
+	}
+
+	&::-webkit-scrollbar-track 
+	{
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb
+	{
+		background: black;
+		border-radius: 2rem;
+	}
+}
+
+
+html
+{
+	font-size: 65.25%;
+	overflow-x: hidden;
+	scroll-padding-top: 9rem;
+	scroll-behavior: smooth;
+
+	&::-webkit-scrollbar 
+	{
+		width: 3px;
+		height: 3px;
+	}
+
+	&::-webkit-scrollbar-track 
+	{
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb
+	{
+		background: black;
+		border-radius: 2rem;
+	}
+}
+
+
+body 
+{
+	margin: 0;
+	padding: 0; 
+	overflow-x: hidden;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+
+	.leftBox
+	{
+		    background-color: rgba(255,255,255,1);
+		    border-color: rgba(0,0,0,0.150000006);
+		    border-right-style: solid;
+		    border-right-width: 1px;
+		    font-family: "Lato", sans-serif;
+		    width: 250px;
+		    padding-top: 62px;
+		    display: block;
+		    height: 100%;
+		    max-width: 80%;
+		    overflow-y: auto;
+		    position: fixed;
+		    z-index: 70;
+
+		 .posLeft
+		 {
+		 		 transition: left 0.5s cubic-bezier(0.4,0,0.2,1);
+   				 left: 0;
+		 }
+
+		 .iconsSdu
+		 {
+		 	/* margin-right: 25px; */
+		 	margin-left: 36px;
+		 	margin-bottom: 21.5px;
+		 }
+
+		 nav 
+		 {
+		 	
+		 	li, a
+		 	{
+		 		color: rgb(153, 153, 153);
+		 		margin-top: 28px;
+		 		list-style: none;
+		 		text-decoration: none;
+		 		font-size: 15px;
+		 		font-weight: 600;
+		 	}
+
+		 	li
+		 	{
+		 		a:hover
+		 		{
+		 			color: black;	
+		 		}
+		 	}
+		 }
+
+
+	}
+
+
+}
+
+.content
+{
+	margin-left: 250px;
+	flex: 0 0 auto;
+	outline: none;
+	.heightImg
+	{
+			height: 480px;
+	}
+
+	.mainPage
+	{
+			bottom: 0;
+			width: 100%;
+			left: 0;
+			overflow: hidden;
+			/* position: absolute; */
+			right: 0;
+			top: 0;
+			height: 100%;
+
+		.contentImg
+		{
+				background-image: url("https://www.aaresource.com/wp-content/uploads/2015/08/elegant-grey-illumination-background-presentations-powerpoint-backgrounds_low.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;
+				height: 480px;
+				position: relative;
+
+
+			.posBottom
+			{
+				position: relative;
+				bottom: -50%;
+				right: -5%;
+
+
+				h1
+				{
+					margin: 0;
+					font-size: 40px; 
+					font-weight: 600; 
+					font-family: "Lato", sasn-serif;
+					line-height: 1.26;
+					padding-bottom: 18px ;
+					color: #fff;
+				}
+
+				.line 
+				{
+					width: 80px;
+					height: 10px;
+					background-color: rgba(2,36,105,1);;
+					z-index: 10;
+					margin-left: 100px ;
+				}
+
+				.textBottomStu
+				{
+					font-size: 15px;
+					font-weight: 400; 
+					color: #fff;
+					margin-top: 10px;
+				}
+
+				.imgUser 
+				{
+					float: right;
+					margin-right: 22rem;
+					position: relative;
+					top: -30rem;
+					width: 250px;
+					height: 250px; 
+
+					img
+					{
+						width: 100%;
+					}
+
+				}
+			}
+		}
+
+
+	}
+		.aboutContent
+		{
+			/* margin-top: 30px; */
+
+			
+			.box
+			{
+					width: 100vw; 
+					height: 600px;
+					background-color: rgba(2,36,105,1);
+
+					.text 
+					{
+
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						.aboutHeadText
+						{
+							padding-right: 250px;
+							padding-top: 30px;
+							padding-bottom: 30px;
+							font-family: "Roboto", sasn-serif;
+							font-weight: 600;
+							font-style: none;
+							text-align: center;
+							font-size: 26pt;
+							margin: 0;
+							color: #fff;
+
+						}
+						.textAbout
+						{
+							
+							margin-left: 200px;
+							margin-right: 450px;
+							color: #fff;
+							font-family: "Roboto", sasn-serif;
+							font-weight: 600;
+							font-size: 13px;
+							padding-bottom: 30px;
+							line-height: 30px;
+						
+						}
+						.btnAbout
+						{
+							
+						 	width: 225px;
+						 	height: 34px;
+						 	background-color: #fff;
+						 	padding: 0 12px;
+						 	margin-right: 250px;
+						 	border: none;
+						 	border-radius: 2px;
+						 	color: rgba(2,36,105,1);
+						 	a
+						 	{
+						 		text-decoration: none;
+						 		font-family: "Roboto", sasn-serif;
+								font-weight: 600;
+						 	}
+						}
+					}
+			}
+			
+		}		
+}
+
+
+footer 
+{
+	background-color: #fff;
+	margin-right: 250px;
+	.footerTexts
+	{
+		width: 403px;
+		margin: 0 auto;	
+
+		.contact
+		{
+			color: rgba(2,36,105,1);
+			font-family: "Roboto", sasn-serif;
+			font-weight: 900; 
+			font-size: 20px;
+		}
+
+		.dataContact
+		{
+			font-size: 15px; 
+			font-family: "Roboto", sasn-serif;
+			font-weight: 400; 
+			color: #000;
+		}
+	}
+
+
+}
